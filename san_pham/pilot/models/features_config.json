@@ -1,0 +1,19 @@
+{
+    "features": [
+        "PM25_lag1",
+        "PM25_lag2",
+        "PM25_lag24",
+        "PM25_roll3",
+        "PM25_roll24",
+        "temp",
+        "humidity",
+        "wind_speed",
+        "pressure",
+        "rain",
+        "hour_sin",
+        "hour_cos"
+    ],
+    "target": "PM25",
+    "best_model": "XGBoost",
+    "last_trained_timestamp": "2026-11-13 17:00:00"
+}

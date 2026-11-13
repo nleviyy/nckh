@@ -1,0 +1,72 @@
+{
+  "title": "Tập dữ liệu thử nghiệm sơ bộ (Pilot Study) chất lượng không khí và khí tượng tại thành phố Đà Nẵng",
+  "description": "Chuỗi dữ liệu thời gian 720 giờ liên tục (30 ngày) đo nồng độ bụi mịn PM2.5 kết hợp các tham số khí tượng bề mặt phục vụ huấn luyện mô hình học máy tại đô thị ven biển Đà Nẵng.",
+  "spatial_coverage": {
+    "city": "Đà Nẵng",
+    "country": "Việt Nam",
+    "coordinates": "16.0544° N, 108.2022° E"
+  },
+  "temporal_coverage": {
+    "start": "2026-10-01T00:00:00+07:00",
+    "end": "2026-10-30T23:00:00+07:00",
+    "resolution": "1 hour",
+    "total_records": 720
+  },
+  "attributes": [
+    {
+      "name": "timestamp",
+      "type": "string (ISO 8601)",
+      "description": "Thời gian quan trắc chuẩn (Năm-Tháng-Ngày Giờ:Phút)"
+    },
+    {
+      "name": "PM25",
+      "type": "float",
+      "unit": "ug/m3",
+      "description": "Nồng độ bụi mịn PM2.5 lơ lửng trong không khí xung quanh"
+    },
+    {
+      "name": "temp",
+      "type": "float",
+      "unit": "degree Celsius",
+      "description": "Nhiệt độ không khí bề mặt"
+    },
+    {
+      "name": "humidity",
+      "type": "float",
+      "unit": "%",
+      "description": "Độ ẩm tương đối của không khí"
+    },
+    {
+      "name": "wind_speed",
+      "type": "float",
+      "unit": "m/s",
+      "description": "Tốc độ gió bề mặt"
+    },
+    {
+      "name": "wind_dir",
+      "type": "float",
+      "unit": "degree",
+      "description": "Hướng gió thổi (0-360 độ)"
+    },
+    {
+      "name": "pressure",
+      "type": "float",
+      "unit": "hPa",
+      "description": "Áp suất khí quyển bề mặt"
+    },
+    {
+      "name": "rain",
+      "type": "float",
+      "unit": "mm",
+      "description": "Lượng mưa tích lũy trong 1 giờ"
+    }
+  ],
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "fair_compliance": {
+    "findable": "Được gắn metadata định danh chuẩn JSON, từ khóa học thuật rõ ràng",
+    "accessible": "Mở hoàn toàn trên kho lưu trữ định dạng CSV phi độc quyền",
+    "interoperable": "Chuẩn hóa theo ISO 8601 và đơn vị đo lường quốc tế SI",
+    "reusable": "Đi kèm mã nguồn Python mẫu và mô tả tham số đầy đủ"
+  }
+}
+

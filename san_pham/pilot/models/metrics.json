@@ -1,0 +1,17 @@
+{
+    "Linear Regression": {
+        "MAE": 0.813,
+        "RMSE": 1.251,
+        "R2": 0.9162
+    },
+    "Random Forest": {
+        "MAE": 0.806,
+        "RMSE": 1.35,
+        "R2": 0.9024
+    },
+    "XGBoost": {
+        "MAE": 0.806,
+        "RMSE": 1.311,
+        "R2": 0.908
+    }
+}
